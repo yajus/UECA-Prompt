@@ -1,4 +1,6 @@
-# Prerequisites
+# UECA-Prompt: Universal Prompt for Emotion Cause Analysis
+
+## Prerequisites
 
 Python 3.8  
 [Pytorch](https://pytorch.org/) 1.9.0  
@@ -6,7 +8,7 @@ Python 3.8
 BERT - Our BERT model is adapted from this implementation:  
 https://github.com/huggingface/pytorch-pretrained-BERT  
 
-# Dataset
+## Dataset
 
 - ```divide_fold.py```: used to  get 20 files, which will be named as “foldx_train.txt” and “foldx_test.txt”, where “x” should be from 1 to 10.  
 
@@ -24,7 +26,7 @@ https://github.com/huggingface/pytorch-pretrained-BERT
 
 **data_combine_ECPE_balance** - A dir where contains data splits for de-bias dataset for ECPE task. The test dataset are named as fold\*\_test.txt, while the train datasets are named as fold\*\_train.txt.
 
-# Usage
+## Usage
 
 Download checkpoint from https://www.dropbox.com/sh/45jj8dcenhbuzvn/AABbXSxccgyi1AMGA5yi4DBUa?dl=0 and save in the fold ```checkpoint```
 
@@ -39,7 +41,7 @@ Download pretraind model  from https://huggingface.co/bert-base-chinese and save
 - run ```ECPE_M2M.py``` for  M2M variant method in ECPE task.
 
 
-# Citation
+## Citation
 If you find our work useful, please consider citing UECA-Prompt:
 
 ```
