@@ -37,3 +37,15 @@ Download pretraind model  from https://huggingface.co/bert-base-chinese and save
 
 - run ```ECPE_M2M.py``` for  M2M variant method in ECPE task.
 
+
+# If you find our work useful, please consider citing UECA-Prompt:
+
+```
+@inproceedings{zheng2022ueca,
+  title={UECA-Prompt: Universal Prompt for Emotion Cause Analysis},
+  author={Zheng, Xiaopeng and Liu, Zhiyue and Zhang, Zizhen and Wang, Zhaoyang and Wang, Jiahai},
+  booktitle={Proceedings of the 29th International Conference on Computational Linguistics},
+  pages={7031--7041},
+  year={2022}
+}
+```
