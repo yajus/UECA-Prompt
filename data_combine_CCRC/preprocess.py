@@ -8,10 +8,10 @@ i = 0
 while i < len(data):
     docid = int(data[i].split()[0])
     doclen = int(data[i].split()[1])
-    ofile.write("%s %s\n" % (data[i].strip(), labels[docid-1].strip()))
-    ofile.write(data[i+1])
+    ofile.write("%s %s\n" % (data[i].strip(), labels[docid - 1].strip()))
+    ofile.write(data[i + 1])
     for j in range(doclen):
-        ofile.write(data[i+2+j])
-    i+=doclen+2
+        ofile.write(data[i + 2 + j])
+    i += doclen + 2
 
 ofile.close()
