@@ -3,7 +3,8 @@
 Python 3.8  
 [Pytorch](https://pytorch.org/) 1.9.0  
 [CUDA](https://developer.nvidia.com/cuda-10.0-download-archive) 10.1  
-BERT - Our BERT model is adapted from this implementation: https://github.com/huggingface/pytorch-pretrained-BERT  
+BERT - Our BERT model is adapted from this implementation: //
+https://github.com/huggingface/pytorch-pretrained-BERT  
 
 # Dataset
 
@@ -38,7 +39,8 @@ Download pretraind model  from https://huggingface.co/bert-base-chinese and save
 - run ```ECPE_M2M.py``` for  M2M variant method in ECPE task.
 
 
-# If you find our work useful, please consider citing UECA-Prompt:
+# Citation
+If you find our work useful, please consider citing UECA-Prompt:
 
 ```
 @inproceedings{zheng2022ueca,
