@@ -3,8 +3,7 @@
 Python 3.8  
 [Pytorch](https://pytorch.org/) 1.9.0  
 [CUDA](https://developer.nvidia.com/cuda-10.0-download-archive) 10.1  
-BERT - Our bert model is adapted from this implementation: 
-https://github.com/huggingface/pytorch-pretrained-BERT  
+BERT - Our bert model is adapted from this implementation: https://github.com/huggingface/pytorch-pretrained-BERT  
 
 # Dataset
 
