@@ -1,3 +1,39 @@
-# UECA-Prompt
+# Prerequisites
 
-The code will be released soon...
+Python 3.8  
+[Pytorch](https://pytorch.org/) 1.9.0  
+[CUDA](https://developer.nvidia.com/cuda-10.0-download-archive) 10.1  
+BERT - Our bert model is adapted from this implementation: https://github.com/huggingface/pytorch-pretrained-BERT  
+
+# Dataset
+
+- ```divide_fold.py```: used to  get 20 files, which will be named as “foldx_train.txt” and “foldx_test.txt”, where “x” should be from 1 to 10.  
+
+**data_combine_ECPE** - A dir where contains data splits for ECPE task. The test dataset are named as fold\*\_test.txt, while the train datasets are named as fold\*\_train.txt.
+
+**data_combine_ECE** - A dir where contains data splits for ECE task. The test dataset are named as fold\*\_test.txt, while the train datasets are named as fold\*\_train.txt.
+
+**data_combine_CCRC** - A dir where contains data splits for CCRC task. The test dataset are named as fold\*\_test.txt, while the train datasets are named as fold\*\_train.txt.
+
+- ```preprocess.py```: used to get the manually labeled datase.  
+
+- ```gen_nega_samples.py```: used to  generate the constructed conditional-ECPE dataset.  
+
+**data_combine_ECE_balance** - A dir where contains data splits for de-bias dataset for ECE task. The test dataset are named as fold\*\_test.txt, while the train datasets are named as fold\*\_train.txt.
+
+**data_combine_ECPE_balance** - A dir where contains data splits for de-bias dataset for ECPE task. The test dataset are named as fold\*\_test.txt, while the train datasets are named as fold\*\_train.txt.
+
+# Usage
+
+Download checkpoint from https://www.dropbox.com/sh/45jj8dcenhbuzvn/AABbXSxccgyi1AMGA5yi4DBUa?dl=0 and save in the fold ```checkpoint```
+
+Download pretraind model  from https://huggingface.co/bert-base-chinese and save it as ```bert-base-chinese```.
+
+- run ```ECE.py``` for ECE task.
+
+- run ```ECPE.py``` for ECPE task.
+
+- run ```CCRC.py``` for CCRC task.
+
+- run ```ECPE_M2M.py``` for  M2M variant method in ECPE task.
+
