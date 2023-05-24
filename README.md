@@ -51,3 +51,5 @@ If you find our work useful, please consider citing UECA-Prompt:
   year={2022}
 }
 ```
+
+[![Page Views Count](https://badges.toozhao.com/badges/01F0MPA6GQQXGBJSVKT85C4PKT/green.svg)](https://badges.toozhao.com/stats/01F0MPA6GQQXGBJSVKT85C4PKT "Get your own page views count badge on badges.toozhao.com")
